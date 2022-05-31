@@ -11,7 +11,7 @@ class UserModel(AbstractUser):  # 생성한 클래스 이름 # 괄호안에 넣�
         db_table = "my_user"
 
     # username = models.CharField(max_length=20, null=False)   # 사용자 이름
-    # password = models.CharField(max_length=256, null=False)  # 패스워드
+    # password = models.CharField(max_length=256, null=False)  ㅊ
     bio = models.CharField(max_length=256, default='')       # 상태메시지
     # created_at = models.DateTimeField(auto_now_add=True)     # 생성일
     # updated_at = models.DateTimeField(auto_now=True)         # 수정일
